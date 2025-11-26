@@ -21,7 +21,7 @@
         a.darkmode_switchbutton.menu-child(href='javascript:void(0);' title=_p("aside.display_mode"))
           i.anzhiyufont.anzhiyu-icon-circle-half-stroke
           span=_p("aside.display_mode")
-    if theme.sidebar && theme.sidebar.nav_menu_project
+    if theme.sidebar && theme.sidebar.nav_menu_project && theme.nav.enable
       .back-menu-list-groups
         each group in theme.nav.menu
           .back-menu-list-group
